@@ -1,28 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {
-    Nav , Navbar, NavItem, NavDropdown, MenuItem
+    Nav , Navbar, NavItem
 } from 'react-bootstrap'
 const Header = () => (
 <Navbar>
   <Navbar.Header>
     <Navbar.Brand>
-      <a href="#home">Abraham Ragab</a>
+      <Link to="/">Abraham Ragab</Link>
     </Navbar.Brand>
   </Navbar.Header>
   <Nav>
     <NavItem eventKey={1} href="#">
-      Resume
+      <Link to="/resume">Resume</Link>
     </NavItem>
     <NavItem eventKey={2} href="#">
-      FEND Projects
+      <Link to="/fendprojects">FEND Projects</Link>
     </NavItem>
-    <NavDropdown eventKey={3} title="Contact Me" id="basic-nav-dropdown">
-      <MenuItem eventKey={3.1}>Facebook</MenuItem>
-      <MenuItem eventKey={3.2}>Linkedin</MenuItem>
-      <MenuItem eventKey={3.3}>Twitter</MenuItem>
-      <MenuItem divider />
-      <MenuItem eventKey={3.4}>Github</MenuItem>
-    </NavDropdown>
   </Nav>
 </Navbar>
 );
