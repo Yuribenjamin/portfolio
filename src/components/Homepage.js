@@ -35,22 +35,22 @@ class Homepage extends Component {
             <Row
             className='show-grid text-center footer'>
                 <Col xs={3} sm={3}>
-                <a href='https://facebook.com/Ibrhim.Moustafa' target='_blank'>
+                <a href='https://facebook.com/Ibrhim.Moustafa' rel="noopener noreferrer" target='_blank'>
                 <Image src={fb} circle className='icon'/>
                 </a>
                 </Col>
                 <Col xs={3} sm={3}>
-                <a href='https://www.linkedin.com/in/abrahamragab/' target='_blank'>
+                <a href='https://www.linkedin.com/in/abrahamragab/' rel="noopener noreferrer" target='_blank'>
                 <Image src={li} circle className='icon'/>
                 </a>
                 </Col>
                 <Col xs={3} sm={3}>
-                <a href='https://github.com/Yuribenjamin' target='_blank'>
+                <a href='https://github.com/Yuribenjamin' rel="noopener noreferrer" target='_blank'>
                 <Image src={gh} circle className='icon'/>
                 </a>
                 </Col>
                 <Col xs={3} sm={3}>
-                <a href='https://twitter.com/AbrahamRagab' target='_blank'>
+                <a href='https://twitter.com/AbrahamRagab' rel="noopener noreferrer" target='_blank'>
                 <Image src={tw} circle className='icon'/>
                 </a>
                 </Col>
