@@ -1,8 +1,5 @@
 .App {
     height: 100vh;
-    /* Background pattern from Subtle Patterns */
-    background: url('./assets/ep_naturalblack.png');
-    color: #eee;
 }
 
 /* Position and sizing of burger button */
@@ -84,7 +81,7 @@ background: rgba(0, 0, 0, 0.3);
 }
 
 .icon {
-    width: 15%;
+    width: 18%;
 }
 
 .footer {
