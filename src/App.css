@@ -1,5 +1,8 @@
 .App {
     height: 100vh;
+    /* Background pattern from Subtle Patterns */
+    background: url('./assets/ep_naturalblack.png');
+    color: #eee;
 }
 
 /* Position and sizing of burger button */
@@ -13,7 +16,7 @@ top: 36px;
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-background: #373a47;
+background: #eee;
 }
 
 /* Position and sizing of clickable cross button */
@@ -53,4 +56,37 @@ display: inline-block;
 /* Styling of overlay */
 .bm-overlay {
 background: rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron {
+    margin-top: 5.5em;
+    background: none;
+}
+
+.person-wrapper {
+    margin: 1em;
+}
+
+.profile-pic {
+    width: 20%;
+}
+
+.des {
+    font-size: 16px;
+}
+
+.btn-primary {
+    background:#eee;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: .30rem;
+    cursor: pointer;
+}
+
+.icon {
+    width: 15%;
+}
+
+.footer {
+    margin-top: 4em;
 }
