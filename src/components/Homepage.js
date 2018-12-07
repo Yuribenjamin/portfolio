@@ -15,9 +15,7 @@ class Homepage extends Component {
                 This is Abraham Ragab Homepage,
                 I'm a Former Lawyer and Front-End Web Developer
                 </p>
-                <p>
                     <Button>Resume</Button>
-                </p>
             </Jumbotron>
             <Row
             className='show-grid text-center'>
