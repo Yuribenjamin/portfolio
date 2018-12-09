@@ -6,6 +6,11 @@ import li from '../assets/li.svg'
 import gh from '../assets/gh.svg'
 import tw from '../assets/tw.svg'
 class Homepage extends Component {
+
+    url () {
+        const url='https://www.slideshare.net/slideshow/embed_code/key/lI4ocPTFPzNxVe';
+        window.open(url);
+    }
     render() {
         return(
             <Grid>
@@ -15,7 +20,9 @@ class Homepage extends Component {
                 This is Abraham Ragab Homepage,
                 I'm a Former Lawyer and Front-End Web Developer
                 </p>
-                    <Button>Resume</Button>
+                    <Button
+                    onClick={this.url}
+                    >Resume</Button>
             </Jumbotron>
             <Row
             className='show-grid text-center'>
