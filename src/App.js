@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
 import Homepage from './components/Homepage'
-import Resume from './components/Resume'
-import Fendprojects from './components/Fendprojects'
-import { Route } from 'react-router-dom'
-import Menubar from './components/Menubar'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className='App' >
-        <Menubar/>
-        <Route exact path='/' component={Homepage}/>
-        <Route path='/resume' component={Resume}/>
-        <Route path='/fendprojects' component={Fendprojects}/>
+        <Homepage/>
       </div>
     );
   }
