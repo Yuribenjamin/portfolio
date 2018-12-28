@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/matchinggame.3a38d505.png"
   },
   {
-    "revision": "a45dff398362410102f3",
-    "url": "/portfolio/static/css/main.71072eb5.chunk.css"
+    "revision": "3f279dc444d174038f2b",
+    "url": "/portfolio/static/css/main.0f199f6c.chunk.css"
   },
   {
-    "revision": "12d2c5ee11f9b8b32dfb",
-    "url": "/portfolio/static/js/1.12d2c5ee.chunk.js"
+    "revision": "f9c5daf018822ee73035",
+    "url": "/portfolio/static/js/1.f9c5daf0.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/tw.d10e5a23.svg"
   },
   {
-    "revision": "a45dff398362410102f3",
-    "url": "/portfolio/static/js/main.a45dff39.chunk.js"
+    "revision": "3f279dc444d174038f2b",
+    "url": "/portfolio/static/js/main.3f279dc4.chunk.js"
   },
   {
     "revision": "60a057213c731b0583066881a4eef7b0",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/ep_naturalblack.23e2b6cf.png"
   },
   {
-    "revision": "c85c1775bf1ed1b4d37d23b5d7458497",
+    "revision": "4cadcd4a1cd95ec2ea41204f167513f8",
     "url": "/portfolio/index.html"
   }
 ];
