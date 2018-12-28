@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/ep_naturalblack.23e2b6cf.png"
   },
   {
-    "revision": "c3846eecd55cc562142aaf2b8e438e96",
+    "revision": "7a4d00ba3c8796d96df08b3a0517f4a3",
     "url": "/portfolio/index.html"
   }
 ];
