@@ -104,53 +104,72 @@ background: rgba(0, 0, 0, 0.3);
     height: 30px;
     left: 36px;
     top: 36px;
-  }
-  
-  /* Color/shape of burger icon bars */
-  .bm-burger-bars {
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
     background: #373a47;
-  }
-  
-  /* Position and sizing of clickable cross button */
-  .bm-cross-button {
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
     height: 24px;
     width: 24px;
-  }
-  
-  /* Color/shape of close button cross */
-  .bm-cross {
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
     background: #bdc3c7;
-  }
-  
-  /* General sidebar styles */
-  .bm-menu {
+}
+
+/* General sidebar styles */
+.bm-menu {
     background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-  }
-  
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
     fill: #373a47;
-  }
-  
-  /* Wrapper for item list */
-  .bm-item-list {
+}
+
+/* Wrapper for item list */
+.bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
-  }
-  
-  /* Individual item */
-  .bm-item {
-    display: inline-block;
-  }
-  
-  /* Styling of overlay */
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
-  }
+}
 
-  .menu-item {
-      font-size: 20px;
-      margin-top: 1em;
-  }
+/* Individual item */
+.bm-item {
+    display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+    font-size: 20px;
+    margin-top: 1em;
+}
+.project {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 0 !important;
+}
+
+h1:hover {
+    color: #337ab7 !important;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.thumbnail Button {
+    margin-left: 10px;
+    margin-top: 10px;
+}

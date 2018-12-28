@@ -29,7 +29,7 @@ class Homepage extends Component {
                 <Col
                 className='person-wrapper'>
                 <Image src={ibrahim} circle className='profile-pic'/>
-                <h3>Abraham Ragab</h3>
+                <h1>Abraham Ragab</h1>
                 <p
                 className='des'>
                     Self-motivated web developer with a high level of experience working on multiple projects<br/>
