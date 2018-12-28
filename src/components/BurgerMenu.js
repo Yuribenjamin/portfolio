@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { slide as Menu } from 'react-burger-menu'
+import { Link } from 'react-router-dom'
 
 class BurgerMenu extends Component {
     render(){
         return(
             <Menu pageWrapId={ "page-wrap" }>
-                <a id="home" className="menu-item" href="/">Home</a>
-                <a id="work" className="menu-item" href="/work">Projects : 2018</a>
+                <Link id="home" className="menu-item" to="/">Home</Link>
+                <Link id="work" className="menu-item" to="/work">Projects : 2018</Link>
             </Menu>
         );
     }
