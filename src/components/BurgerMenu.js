@@ -6,7 +6,7 @@ class BurgerMenu extends Component {
     render(){
         return(
             <Menu pageWrapId={ "page-wrap" }>
-                <Link id="home" className="menu-item" to="/">Home</Link>
+                <Link id="home" className="menu-item" to="/portfolio">Home</Link>
                 <Link id="work" className="menu-item" to="/work">Projects : 2018</Link>
             </Menu>
         );
